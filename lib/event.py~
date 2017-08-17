@@ -1,0 +1,30 @@
+import csv
+import sys
+#from imp import reload
+#reload(sys)
+#import importlib
+#importlib.reload(sys)
+
+#sys.setdefaultencoding('utf-8')
+
+event_list = []
+result = {}
+
+with open('../data/test1.csv','r') as csvfile:
+  reader = csv.DictReader(csvfile, delimiter=',')
+  #reader2 = csv.reader(csvfile,delimiter=',')
+  for row in reader:
+      print (row)
+  ''' for row in reader:
+    event_list.append(row['INSTANCESITUATION'])
+  '''
+for event in event_list:
+  if event in result:
+      result[event] += 1
+  else:
+      result[event] = 1
+
+with open('result.csv', 'w', newline='') as csv_file:
+  writer = csv.writer(csv_file)
+  for key, value in result.items():
+      writer.writerow([key,value])
