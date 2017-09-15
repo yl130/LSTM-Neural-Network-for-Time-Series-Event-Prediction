@@ -1,7 +1,4 @@
-"""
-Developed by Pengfei Chen, June 10, 2017.
-In this class, we will leverage mxnet to predict
-"""
+
 
 from __future__ import print_function, unicode_literals, division
 import random
