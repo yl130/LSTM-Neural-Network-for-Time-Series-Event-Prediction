@@ -1,7 +1,4 @@
-"""
-Developed by Pengfei Chen, June 13, 2017.
-This file is used to test the effectiveness of LSTM.
-"""
+
 
 from keras.models import Model
 from src.lstm.gen_train_data import Gen_train_data
