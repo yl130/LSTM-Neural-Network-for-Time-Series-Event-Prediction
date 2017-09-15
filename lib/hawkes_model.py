@@ -1,4 +1,4 @@
-###Developed by Pengfei Chen, May  27, 2017 ####
+
 ### This file aims to analyze the event correlation with harwke point process ####
 from  pyhawkes import models
 import numpy as np
