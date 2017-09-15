@@ -1,6 +1,4 @@
-"""
-Developed by Pengfei Chen,  June 10, 2017.
-"""
+
 
 import os
 import urllib.request
