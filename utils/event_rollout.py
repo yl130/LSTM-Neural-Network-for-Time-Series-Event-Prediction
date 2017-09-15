@@ -1,5 +1,5 @@
 """
-Developed by Pengfei Chen, June 12, 2017.
+
 This class is used to roll out the events along with time.
 """
 import os
