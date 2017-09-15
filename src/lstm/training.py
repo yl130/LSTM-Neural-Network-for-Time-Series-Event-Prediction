@@ -1,7 +1,4 @@
-"""
-Developed by Pengfei Chen, June 13, 2017.
-This class is used to train the event_prediction model with the provided event data.
-"""
+
 import numpy as np
 from keras.models import Model
 import random
