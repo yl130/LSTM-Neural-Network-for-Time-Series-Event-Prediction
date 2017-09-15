@@ -1,6 +1,4 @@
-"""
-Developed by Pengfei Chen, June 12, 2017
-"""
+
 
 import sys
 import numpy as np
