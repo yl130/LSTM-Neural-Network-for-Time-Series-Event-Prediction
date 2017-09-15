@@ -1,4 +1,4 @@
-### Developed by Pengfei Chen, May 19, 2017 ###
+
 """
 This class is used to conduct some basic statistics on the event data such as the  distribution of event occurrence,
 the number of event.
