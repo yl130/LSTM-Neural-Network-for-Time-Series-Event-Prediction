@@ -1,5 +1,4 @@
-### Developed by Pengfei Chen,  May 19, 2017. #####
-###
+
 
 import sys
 import os
